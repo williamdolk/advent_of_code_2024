@@ -13,7 +13,7 @@ nb = nbf.v4.new_notebook()
 nb['cells'] = [
     nbf.v4.new_markdown_cell(f'# Day {day_number}\n## Puzzle 1'),
     nbf.v4.new_code_cell('import numpy as np'),
-    nbf.v4.new_code_cell("input_file = 'input_file_1.txt'\n# input_file = 'test_input_file_1.txt'"),
+    nbf.v4.new_code_cell("input_file = 'input_1.txt'\n# input_file = 'test_input_1.txt'"),
     nbf.v4.new_code_cell('with open(file=input_file, mode="r") as file:\n    pass'),
     nbf.v4.new_markdown_cell('## Puzzle 2'),
     nbf.v4.new_code_cell()
